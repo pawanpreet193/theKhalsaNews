@@ -1,0 +1,152 @@
+ /* * {
+    margin: 0 !important;
+    padding: 0 !important;
+    /* box-sizing: border-box;  */
+ */
+
+ 
+
+body,html{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+}
+.customHeader{
+    background-color: orange;
+    width: 100%;
+    
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
+    padding: 20px;
+   
+}
+
+.heading {
+    display: flex; /* Makes the image and text align horizontally */
+    align-items: center; /* Centers the text vertically with the image */
+    gap: 10px; /* Adds space between the image and text */
+  }
+  
+  .brand-text {
+    margin: 0; /* Remove default margin from <h4> */
+    font-size: 1.6rem; /* Adjust the font size */
+    color: black;
+  }
+  details summary {
+    list-style: none; /* Removes the default arrow */
+  }
+
+  details[open] summary {
+    color: blue; /* Change color when the details element is open */
+  }
+
+  summary{
+    text-align: justify;
+  }
+
+
+
+ul,li{
+    list-style: none;
+}
+
+.nav-list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    
+}
+
+.top-nav{
+    background-color: #333; /* Dark background */
+    padding: 0.8rem 1.2rem;
+    margin-top: 0;
+}
+
+.nav-list li{
+    margin: 0 0.4rem;
+    
+}
+
+.nav-list a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-list a:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+.grid-container{
+display: grid;
+margin: 2%;
+grid-template-columns: 75% 25%;
+gap:0;
+border: 2px solid lightgray;
+border-radius: 10px;
+overflow: hidden;
+width : 98%;
+}
+
+.text-column{
+padding: 4%;
+background-color: #fff;
+}
+
+.text-column h2{
+margin-bottom: 10px;
+font-size: 1.5rem;
+}
+
+.image-column img{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80%;
+height: auto;
+display : block;
+object-fit: cover;
+padding: 2%;
+border : 1px solid white;
+border-radius: 4%;;
+}
+
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+width : 100%;
+background-color: #333;
+display : flex;
+justify-content: space-around;
+align-items: center;
+padding : 2%;
+z-index: 1000;
+border-top: 2px solid #555;
+}
+
+.bottom-nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.separator {
+color: white; /* Matches the link color */
+margin: 0 10px; /* Add spacing around the separator */
+font-size: 1.4rem;
+}
+
+
